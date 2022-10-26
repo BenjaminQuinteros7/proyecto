@@ -1,0 +1,6 @@
+_ nombre del proyecto: DRONESITE
+_ descripción del proyecto: este sitio web tratara que, a partir de drones, las personas puedan transportar pequeños objetos, será destinado a personas que necesiten transportar pequeños objetos, ya sea por falta de movilidad, uso comercial(delivery)
+_ objetivo del proyecto: Ayudar a personas a que puedan transportar objetos en su ciudad local
+_ secciones que tendrá el sitio web. Enumerarlas según su importancia.
+_ recursos necesarios para conseguir texto e imágenes. (flaticon.com/ imágenes)(pixabay.com/ iconos)
+_ paleta de colores.
