@@ -28,3 +28,12 @@ _ paleta de colores.
   </body>
 </html>
 */
+<h1 class="text-info text-center">DRONESITE</h1>
+        <img src="/LOGO-DRONESITE.png" alt="" width="8%" height="8%">
+        <div class="sh-header-top-date text-light">
+            <span class="sh-header-top-date-meta">
+                <span class="sh-header-top-date-day">3</span>
+                <span class="sh-header-top-date-month">Nov</span>
+                <span class="sh-header-top-date-year">2022</span>
+            </span>
+        </div>
