@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>proyecto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo-proyecto.css">
@@ -12,16 +12,17 @@
 
 <body>
     <header>
-        <h1 class="text-info text-center">DRONESITE</h1>
+        <div class="header">
+        <h1 class="text-light text-center">DRONESITE</h1>
         <img src="/LOGO-DRONESITE.png" alt="" width="8%" height="8%">
         <div class="sh-header-top-date text-light">
             <span class="sh-header-top-date-meta">
-                <span class="sh-header-top-date-day">4</span>
+                <span class="sh-header-top-date-day">9</span>
                 <span class="sh-header-top-date-month">Nov</span>
                 <span class="sh-header-top-date-year">2022</span>
             </span>
         </div>
-
+  
     </header>
     <main>
 
@@ -33,81 +34,214 @@
                         OBJETOS, USANDO DRONES DE CARGA COMO MEDIO DE TRANSPORTE EN TU
                         CIUDAD LOCAL</p>
                 </div>
-                <div class="dropdown">
-                    <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        ¿Qué uso le dará al drone?
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><button class="dropdown-item" type="button">transporte</button></li>
-                        <li><button class="dropdown-item" type="button">entretenimiento</button></li>
-                        <li><button class="dropdown-item" type="button">comercial</button></li>
-                        <li><button class="dropdown-item" type="button">usos varios</button></li>
-                    </ul>
-                </div>
             </div>
+       
+        
             <div class="bg-primary text-center text-light" style="width: 100%; height: 30%;">
                 <h3>ELIJA QUE TIPO DE DRONE NECESITARÁ, ACORDE A SU NECESIDAD</h3>
             </div>
-
             <div class="row">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/drone-1.jpg" class="card-img-top" alt="..." width="15%" height="15%">
+                    <div class="card">
+                        <img src="/drone-1.jpg" class="card-img-top" alt="..." width="300px" height="200px">
                         <div class="card-body">
                             <h5 class="card-title">DRONE DE CARGA N°1<h5>
-                                    <p class="card-text">servicios
-                                        aéreos para ayudar a personas. Por ejemplo transportar un flotador, entre muchos otros. </p>
-                                    <a href="#" class="btn btn-primary">solicitar</a>
+                                    <p class="card-text">servicio aéreo para ayudar a personas.</p>
+                                    <form action="">
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for=" lol">ingrese nombre y apellido: </label>
+                                                <input type="text" name="surname" id="lol">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="">fecha de nacimiento: </label>
+                                                <input type="date" name="fecha" id="date">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="">ingrese email: </label>
+                                                <input type="email" name="email" id="em">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="">número de contacto:  </label>
+                                                <input type="number" name="numero" id="num" min="0" max="3.000.000.000">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="submit" value="solicitar" class>
+                                            </div>
+                                        </div>
+
+                                    </form>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/card-2.jpeg" class="card-img-top" alt="..." width="15%" height="15%">
+                    <div class="card">
+                        <img src="/card-2.jpeg" class="card-img-top" alt="..." width="300px" height="200px">
                         <div class="card-body">
                             <h5 class="card-title">DRONE DE CARGA N°2</h5>
                             <p class="card-text">Drone de carga transportando suministros de salud.</p>
-                            <a href="#" class="btn btn-primary">solicitar</a>
+                            <form action="">
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for=" lol">ingrese nombre y apellido: </label>
+                                        <input type="text" name="surname" id="lol">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">fecha de nacimiento: </label>
+                                        <input type="date" name="fecha" id="date">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">ingrese email: </label>
+                                        <input type="email" name="email" id="em">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">número de contacto:  </label>
+                                        <input type="number" name="numero" id="num" min="0" max="3.000.000.000">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="submit" value="solicitar" class>
+                                    </div>
+                                </div>
+
+                            </form>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/card-3.jpeg" class="card-img-top" alt="..." width="15%" height="15%">
+                    <div class="card">
+                        <img src="/drone-5.jpeg" class="card-img-top" alt="..." width="300px" height="200px">
                         <div class="card-body">
                             <h5 class="card-title">DRONE DE CARGA N°3</h5>
-                            <p class="card-text">Drone transportador de un producto de un tamaño un poco grande.</p>
-                            <a href="#" class="btn btn-primary">solicitar</a>
+                            <p class="card-text">Drone de entretenimiento
+                                <br> con luces.
+                            </p>
+                            <form action="">
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for=" lol">ingrese nombre y apellido: </label>
+                                        <input type="text" name="surname" id="lol">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">fecha de nacimiento: </label>
+                                        <input type="date" name="fecha" id="date">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">ingrese email: </label>
+                                        <input type="email" name="email" id="em">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">número de contacto: </label>
+                                        <input type="number" name="numero" id="num" min="0" max="3.000.000.000">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="submit" value="solicitar" class>
+                                    </div>
+                                </div>
+
+                            </form>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="/card-4.jpeg" class="card-img-top" alt="..." width="15%" height="15%">
+                    <div class="card">
+                        <img src="/card-4.jpeg" class="card-img-top" alt="..." width="300px" height="200px">
                         <div class="card-body">
                             <h5 class="card-title">DRONE DE CARGA N°4</h5>
                             <p class="card-text">Drone transportador de paquetes varios.</p>
-                            <a href="#" class="btn btn-primary">solicitar</a>
+                            <form action="">
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for=" lol">ingrese nombre y apellido: </label>
+                                        <input type="text" name="surname" id="lol">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">fecha de nacimiento: </label>
+                                        <input type="date" name="fecha" id="date">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">ingrese email: </label>
+                                        <input type="email" name="email" id="em">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">número de contacto: </label>
+                                        <input type="number" name="numero" id="num" min="0" max="3.000.000.000">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="submit" value="solicitar" class>
+                                    </div>
+                                </div>
+
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="dropdown">
+            <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                ¿Qué uso le dará al drone?
+            </button>
+            <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">transporte de suministros</button></li>
+                <li><button class="dropdown-item" type="button">entretenimiento</button></li>
+                <li><button class="dropdown-item" type="button">comercial</button></li>
+                <li><button class="dropdown-item" type="button">usos varios</button></li>
+            </ul>
+        </div>
         <h3>BENEFICIOS DE USAR DRONES COMO TRANSPORTE</h3>
-        <ol id="pa">
-        <li >es mucho más económico que otros medios de transporte</li>
-        <li>no es un gran contaminador para el medio ambiente</li>
-        <li>Monitoreo permanente del estado del envío a través de una cámara</li>
-        
+        <ol class="col">
+            <li>es mucho más económico que otros medios de transporte</li>
+            <li>NO es un gran contaminador para el medio ambiente</li>
+            <li>Monitoreo permanente del estado del envío a través de una cámara</li>
         </ol>
 
     </main>
     <footer>
-        <h4>CONTACTOS</h4>
-        <img src="/facebook.png" alt="" width="10%" height="10%">
-        <img src="/instagram(1).png" alt="" width="10%" height="10%">
-        <img src="/whatsapp.png" alt="" width="10%" height="10%">
+        <h4>CONTACTOS: </h4>
+        <a href="www.facebook.com"><img src="/facebook.png" alt="" height="10%" width="10%"></a>
+        <a href="www.instagram.com"><img src="/instagram(1).png" alt="" width="10%" height="10%"></a>
+        <a href="www.whatsapp.com"><img src="/whatsapp.png" alt="" width="10%" height="10%"> </a>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">

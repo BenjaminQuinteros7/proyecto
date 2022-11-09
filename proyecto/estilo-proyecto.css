@@ -17,8 +17,6 @@ h1{
 body{
     background-color:img;
 }
-#pa{
-    background-color:wheat;
-    display: flex;
-    justify-content: center;
+footer{
+    background-color: slategrey;
 }
