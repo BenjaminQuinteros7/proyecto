@@ -3,20 +3,19 @@ header{
     background-color: black;
        
 }
-img{
-    margin-bottom: 1%;
-}
+
 body{
-    background-color:turquoise;
+    background-color:lightseagreen
 }
 h1{
     font-size: 5em;
     justify-content: center;
     display: flex;
 }
-body{
-    background-color:img;
-}
+
 footer{
     background-color: slategrey;
+}
+.col{
+    padding-top: 30px;
 }
